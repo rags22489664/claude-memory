@@ -1,0 +1,16 @@
+{
+  "name": "memory",
+  "version": "2.0.0",
+  "description": "Semantic long-term memory for Claude Code powered by LEANN",
+  "hooks": {
+    "PostToolUse": "./hooks/PostToolUse.js",
+    "UserPromptSubmit": "./hooks/UserPromptSubmit.js",
+    "SessionStart": "./hooks/SessionStart.js",
+    "Stop": "./hooks/Stop.js"
+  },
+  "commands": {
+    "memory:search": "./commands/search.md",
+    "memory:status": "./commands/status.md",
+    "memory:compact": "./commands/compact.md"
+  }
+}
